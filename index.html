@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolCoin - Будущее криптовалют на Solana</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-brand">
+                <div class="logo">SolCoin</div>
+            </div>
+            <div class="nav-links">
+                <a href="#about">О проекте</a>
+                <a href="#tokenomics">Токеномика</a>
+                <a href="#roadmap">Роадмап</a>
+                <button class="connect-wallet-btn" id="connectWallet">
+                    Подключить кошелек
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">
+                Новое поколение <span class="gradient-text">DeFi</span> на Solana
+            </h1>
+            <p class="hero-description">
+                SolCoin - инновационная криптовалюта, созданная на высокоскоростном блокчейне Solana. 
+                Быстрые транзакции, низкие комиссии, безграничные возможности.
+            </p>
+            <div class="hero-actions">
+                <button class="btn btn-primary">Купить токены</button>
+                <button class="btn btn-secondary">Whitepaper</button>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-value">$2.4M</div>
+                    <div class="stat-label">Рыночная капитализация</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">15,000+</div>
+                    <div class="stat-label">Держатели токенов</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-value">$0.045</div>
+                    <div class="stat-label">Текущая цена</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="floating-card">
+                <div class="card-header">SolCoin Wallet</div>
+                <div class="card-balance">
+                    <div class="balance-amount">1,250 SOL</div>
+                    <div class="balance-usd">≈ $125,000</div>
+                </div>
+                <div class="card-actions">
+                    <button class="card-btn">Отправить</button>
+                    <button class="card-btn">Получить</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">Почему SolCoin?</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Молниеносная скорость</h3>
+                    <p>Транзакции обрабатываются за доли секунды благодаря технологии Solana</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">💰</div>
+                    <h3>Низкие комиссии</h3>
+                    <p>Комиссии менее $0.01 за транзакцию делают SolCoin доступным для всех</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Безопасность</h3>
+                    <p>Проверенные смарт-контракты и аудиты от ведущих компаний</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🌱</div>
+                    <h3>Экологичность</h3>
+                    <p>Энергоэффективный консенсус Proof of Stake</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="tokenomics">
+        <div class="container">
+            <h2 class="section-title">Токеномика</h2>
+            <div class="tokenomics-content">
+                <div class="tokenomics-chart">
+                    <div class="chart-container">
+                        <div class="pie-chart">
+                            <div class="slice slice-1" style="--percentage: 40"></div>
+                            <div class="slice slice-2" style="--percentage: 25"></div>
+                            <div class="slice slice-3" style="--percentage: 20"></div>
+                            <div class="slice slice-4" style="--percentage: 15"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tokenomics-info">
+                    <div class="token-stats">
+                        <div class="token-stat">
+                            <span class="stat-label">Общее предложение:</span>
+                            <span class="stat-value">1,000,000,000 SOL</span>
+                        </div>
+                        <div class="token-stat">
+                            <span class="stat-label">В обращении:</span>
+                            <span class="stat-value">600,000,000 SOL</span>
+                        </div>
+                    </div>
+                    <div class="distribution-list">
+                        <div class="distribution-item">
+                            <div class="distribution-color" style="background: #6366f1;"></div>
+                            <span>Публичная продажа - 40%</span>
+                        </div>
+                        <div class="distribution-item">
+                            <div class="distribution-color" style="background: #8b5cf6;"></div>
+                            <span>Команда и советники - 25%</span>
+                        </div>
+                        <div class="distribution-item">
+                            <div class="distribution-color" style="background: #06b6d4;"></div>
+                            <span>Развитие экосистемы - 20%</span>
+                        </div>
+                        <div class="distribution-item">
+                            <div class="distribution-color" style="background: #10b981;"></div>
+                            <span>Маркетинг и партнерства - 15%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="roadmap">
+        <div class="container">
+            <h2 class="section-title">Роадмап развития</h2>
+            <div class="roadmap-timeline">
+                <div class="timeline-item completed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Q1 2024 - Запуск</h3>
+                        <p>Выпуск токена, листинг на DEX, формирование сообщества</p>
+                    </div>
+                </div>
+                <div class="timeline-item completed">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Q2 2024 - Развитие</h3>
+                        <p>Стейкинг пул, партнерства с DeFi протоколами</p>
+                    </div>
+                </div>
+                <div class="timeline-item active">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Q3 2024 - Экспансия</h3>
+                        <p>Листинг на CEX, мобильное приложение, NFT коллекция</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Q4 2024 - Инновации</h3>
+                        <p>Запуск DAO, кросс-чейн мосты, GameFi интеграция</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">SolCoin</div>
+                    <p>Будущее криптовалют на Solana</p>
+                </div>
+                <div class="footer-links">
+                    <div class="link-group">
+                        <h4>Продукт</h4>
+                        <a href="#">Whitepaper</a>
+                        <a href="#">Токеномика</a>
+                        <a href="#">Аудит</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Сообщество</h4>
+                        <a href="#">Telegram</a>
+                        <a href="#">Discord</a>
+                        <a href="#">Twitter</a>
+                    </div>
+                    <div class="link-group">
+                        <h4>Разработчикам</h4>
+                        <a href="#">GitHub</a>
+                        <a href="#">Документация</a>
+                        <a href="#">API</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 SolCoin. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
