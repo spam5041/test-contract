@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolCoin Metadata</title>
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+            color: #ffffff;
+            margin: 0;
+            padding: 2rem;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.05);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 1rem;
+            padding: 2rem;
+        }
+        .logo {
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .metadata-info {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 0.5rem;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+        .metadata-title {
+            color: #6366f1;
+            font-size: 1.25rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .metadata-item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 0.75rem;
+            padding: 0.5rem;
+            background: rgba(255, 255, 255, 0.03);
+            border-radius: 0.25rem;
+        }
+        .metadata-label {
+            color: #cbd5e1;
+        }
+        .metadata-value {
+            color: #ffffff;
+            font-weight: 500;
+        }
+        .back-link {
+            display: inline-block;
+            color: #6366f1;
+            text-decoration: none;
+            margin-top: 1rem;
+            padding: 0.5rem 1rem;
+            border: 1px solid #6366f1;
+            border-radius: 0.5rem;
+            transition: all 0.3s ease;
+        }
+        .back-link:hover {
+            background: #6366f1;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo">SolCoin Metadata</div>
+        
+        <div class="metadata-info">
+            <div class="metadata-title">Информация о токене</div>
+            <div class="metadata-item">
+                <span class="metadata-label">Название:</span>
+                <span class="metadata-value">SolCoin</span>
+            </div>
+            <div class="metadata-item">
+                <span class="metadata-label">Символ:</span>
+                <span class="metadata-value">SOL</span>
+            </div>
+            <div class="metadata-item">
+                <span class="metadata-label">Сеть:</span>
+                <span class="metadata-value">Solana</span>
+            </div>
+            <div class="metadata-item">
+                <span class="metadata-label">Адрес контракта:</span>
+                <span class="metadata-value"></span>
+            </div>
+            <div class="metadata-item">
+                <span class="metadata-label">Общее предложение:</span>
+                <span class="metadata-value">1,000,000,000 SOL</span>
+            </div>
+            <div class="metadata-item">
+                <span class="metadata-label">Текущая цена:</span>
+                <span class="metadata-value">$0.045</span>
+            </div>
+        </div>
+
+        <div class="metadata-info">
+            <div class="metadata-title">Техническая информация</div>
+            <div class="metadata-item">
+                <span class="metadata-label">Версия:</span>
+                <span class="metadata-value">1.0.0</span>
+            </div>
+            <div class="metadata-item">
+                <span class="metadata-label">Дата создания:</span>
+                <span class="metadata-value">2024-01-01</span>
+            </div>
+            <div class="metadata-item">
+                <span class="metadata-label">Аудит:</span>
+                <span class="metadata-value">Проверен</span>
+            </div>
+        </div>
+
+        <a href="../" class="back-link">← Вернуться на главную</a>
+    </div>
+</body>
+</html>
