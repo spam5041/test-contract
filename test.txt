@@ -1,0 +1,12 @@
+#providerid 7JDNJYYY
+#profile-title: VPN Service
+#profile-update-interval: 24
+#subscription-userinfo: upload=0; download=0; total=0; expire=1776729360
+#support-url: https://t.me/your_support_bot
+#profile-web-page-url: https://your-site.com
+#sub-expire: 1
+#sub-expire-button-link: https://your-site.com/extend
+
+# План: trial | До: 21.04.2026
+
+vless://905b1de0-e62b-477c-8f85-f74b40fa37d2-de@de1.yourserver.com:443?encryption=none&security=reality&pbk=qGPTy8EZokn3hWp6hKBQ0MVvEuLRJCcv5UdWeP4TVhI&sid=abc123&flow=xtls-rprx-vision&type=tcp&sni=www.google.com&fp=chrome#%F0%9F%87%A9%F0%9F%87%AA%20Germany%20Trial
