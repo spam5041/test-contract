@@ -1,11 +1,13 @@
 #providerid 7JDNJYYY
-#profile-title: VPN Service
+#profile-title: Привет VPN
 #profile-update-interval: 1
-#subscription-userinfo: upload=0; download=0; total=0; expire=1776730795
+#subscription-userinfo: upload=0; download=0; total=0; expire=1774083491
 #support-url: https://t.me/your_support_bot
 #profile-web-page-url: https://your-site.com
 #sub-expire: 1
 #sub-expire-button-link: https://your-site.com/extend
+#announce: base64:0J3QtSDRgNCw0LHQvtGC0LDQtdGCIHZwbiAtINCy0YvQsdC10YDQuCDQtNGA0YPQs9C+0Lkg0YHQtdGA0LLQtdGAIA==
+
 
 # План: basic | До: 22.03.2026
 
